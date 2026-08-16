@@ -6,6 +6,10 @@ SECRET_KEY = 'django-insecure-m2gbc9&-fs6o+vc=!=wlp&y3u26e(3^%p2fc3i&xs3t_4n-=r)
 
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://greatstore-production.up.railway.app",
+]
+
 ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
