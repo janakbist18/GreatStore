@@ -1,0 +1,1064 @@
+[
+{
+  "model": "store.category",
+  "pk": 1,
+  "fields": {
+    "name": "Jewelry",
+    "slug": "Jewelry",
+    "icon": "💎",
+    "description": "Freshwater pearl drop earrings with sterling silver hooks, timeless and elegant."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 2,
+  "fields": {
+    "name": "Clothes",
+    "slug": "clothes",
+    "icon": "👕",
+    "description": "Men and women fashion clothing — everyday essentials to luxury pieces."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 3,
+  "fields": {
+    "name": "Watches",
+    "slug": "watches",
+    "icon": "⌚",
+    "description": "Luxury and sport timepieces for every style and budget."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 4,
+  "fields": {
+    "name": "Shoes",
+    "slug": "shoes",
+    "icon": "👟",
+    "description": "Sneakers, heels, boots and more for men and women."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 5,
+  "fields": {
+    "name": "Bags",
+    "slug": "bags",
+    "icon": "👜",
+    "description": "Handbags, backpacks, clutches, and wallets."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 6,
+  "fields": {
+    "name": "Jewelry",
+    "slug": "jewelry",
+    "icon": "💎",
+    "description": "Rings, necklaces, bracelets, and earrings in gold and silver."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 7,
+  "fields": {
+    "name": "Sunglasses",
+    "slug": "sunglasses",
+    "icon": "🕶️",
+    "description": "Designer and sport eyewear with UV400 protection."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 8,
+  "fields": {
+    "name": "Hats",
+    "slug": "hats",
+    "icon": "🧢",
+    "description": "Caps, fedoras, beanies and more headwear styles."
+  }
+},
+{
+  "model": "store.category",
+  "pk": 9,
+  "fields": {
+    "name": "Accessories",
+    "slug": "accessories",
+    "icon": "🎀",
+    "description": "Scarves, belts, gloves, wallets and fashion accessories."
+  }
+},
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "name": "Pearl Drop Earrings",
+    "slug": "pearl-drop-earrings",
+    "category": 6,
+    "description": "Freshwater cultured pearl drop earrings with sterling silver hooks. 10mm pearl diameter. Timeless elegance for everyday wear and special occasions.",
+    "price": "69.99",
+    "original_price": "99.99",
+    "image_url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80",
+    "daraz_url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80",
+    "stock": 55,
+    "is_featured": true,
+    "rating": "4.7",
+    "created_at": "2026-07-08T05:26:56.711Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "name": "Classic White T-Shirt",
+    "slug": "classic-white-t-shirt",
+    "category": 2,
+    "description": "Soft premium cotton essential white tee. Pre-shrunk fabric ensures a consistent fit wash after wash. Available in XS–XXL. Perfect for any occasion.",
+    "price": "29.99",
+    "original_price": "49.99",
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+    "daraz_url": "",
+    "stock": 150,
+    "is_featured": true,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:47.507Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "name": "Floral Summer Dress",
+    "slug": "floral-summer-dress",
+    "category": 2,
+    "description": "Light floral print midi dress in breathable chiffon. Adjustable spaghetti straps, smocked back for a flattering fit. Ideal for sunny days and beach outings.",
+    "price": "79.99",
+    "original_price": "119.99",
+    "image_url": "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=600&q=80",
+    "daraz_url": "",
+    "stock": 80,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:47.567Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "name": "Denim Jacket",
+    "slug": "denim-jacket",
+    "category": 2,
+    "description": "Versatile classic denim jacket in 100% cotton. Button-front closure with two chest pockets. Timeless casual look that pairs with anything.",
+    "price": "99.99",
+    "original_price": null,
+    "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+    "daraz_url": "",
+    "stock": 60,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:47.618Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "name": "Sports Hoodie",
+    "slug": "sports-hoodie",
+    "category": 2,
+    "description": "Heavyweight fleece-lined hoodie with kangaroo pocket and adjustable drawstring. Ideal for workouts, morning jogs, and casual wear.",
+    "price": "59.99",
+    "original_price": "89.99",
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80",
+    "daraz_url": "",
+    "stock": 120,
+    "is_featured": true,
+    "rating": "4.7",
+    "created_at": "2026-07-08T06:01:47.675Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "name": "Slim Fit Chinos",
+    "slug": "slim-fit-chinos",
+    "category": 2,
+    "description": "Smart slim-fit chinos in stretch cotton blend. Available in khaki, navy, olive, and black. Versatile from office to weekend brunch.",
+    "price": "69.99",
+    "original_price": "99.99",
+    "image_url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80",
+    "daraz_url": "",
+    "stock": 90,
+    "is_featured": false,
+    "rating": "4.3",
+    "created_at": "2026-07-08T06:01:47.726Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "name": "Silk Evening Blouse",
+    "slug": "silk-evening-blouse",
+    "category": 2,
+    "description": "Elegant 100% silk blouse with lustrous sheen. V-neckline, flowy silhouette. Perfect for formal meetings and evening events.",
+    "price": "89.99",
+    "original_price": "129.99",
+    "image_url": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?w=600&q=80",
+    "daraz_url": "",
+    "stock": 40,
+    "is_featured": true,
+    "rating": "4.9",
+    "created_at": "2026-07-08T06:01:47.776Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "name": "Premium Leather Jacket",
+    "slug": "premium-leather-jacket",
+    "category": 2,
+    "description": "Genuine lambskin leather jacket with quilted lining and polished silver zips. Two side pockets, one inner pocket. Butter-soft feel that improves with age.",
+    "price": "249.99",
+    "original_price": "349.99",
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+    "daraz_url": "",
+    "stock": 30,
+    "is_featured": true,
+    "rating": "4.9",
+    "created_at": "2026-07-08T06:01:47.832Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "name": "Velvet Cocktail Dress",
+    "slug": "velvet-cocktail-dress",
+    "category": 2,
+    "description": "Fitted velvet midi dress with elegant sweetheart neckline. Back zipper closure. Available in deep burgundy, midnight blue, and emerald green. Perfect for special evenings.",
+    "price": "139.99",
+    "original_price": "199.99",
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
+    "daraz_url": "",
+    "stock": 45,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:47.879Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "name": "Linen Wide-Leg Trousers",
+    "slug": "linen-wide-leg-trousers",
+    "category": 2,
+    "description": "Breathable 100% linen trousers in a relaxed wide-leg silhouette. Elastic waistband with drawstring. Ideal for summer travels and hot days.",
+    "price": "74.99",
+    "original_price": "109.99",
+    "image_url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+    "daraz_url": "",
+    "stock": 70,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:47.924Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 11,
+  "fields": {
+    "name": "Graphic Oversized Hoodie",
+    "slug": "graphic-oversized-hoodie",
+    "category": 2,
+    "description": "Heavyweight fleece hoodie in an oversized streetwear fit. Bold graphic front print, double-stitched seams for durability. Unisex sizing.",
+    "price": "64.99",
+    "original_price": "89.99",
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80",
+    "daraz_url": "",
+    "stock": 100,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:47.976Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "name": "Classic Silver Watch",
+    "slug": "classic-silver-watch",
+    "category": 3,
+    "description": "Swiss-inspired silver case watch with sapphire crystal glass. 50m water resistance. Stainless steel bracelet. Precise Japanese quartz movement.",
+    "price": "299.99",
+    "original_price": "399.99",
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+    "daraz_url": "",
+    "stock": 25,
+    "is_featured": true,
+    "rating": "4.9",
+    "created_at": "2026-07-08T06:01:48.030Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "name": "Luxury Gold Watch",
+    "slug": "luxury-gold-watch",
+    "category": 3,
+    "description": "Premium 18k gold-plated case watch with genuine brown leather strap. Roman numeral dial, exhibition caseback. The perfect luxury gift.",
+    "price": "599.99",
+    "original_price": "799.99",
+    "image_url": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&q=80",
+    "daraz_url": "",
+    "stock": 15,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:48.080Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "name": "Smart Watch Pro",
+    "slug": "smart-watch-pro",
+    "category": 3,
+    "description": "Advanced smartwatch with built-in GPS, heart rate monitor, SpO2 sensor, sleep tracking and 14-day battery life. Compatible with Android and iOS. IP68 rated.",
+    "price": "399.99",
+    "original_price": null,
+    "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&q=80",
+    "daraz_url": "",
+    "stock": 50,
+    "is_featured": true,
+    "rating": "4.7",
+    "created_at": "2026-07-08T06:01:48.129Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "name": "Sports Chronograph",
+    "slug": "sports-chronograph",
+    "category": 3,
+    "description": "Sporty chronograph with three sub-dials and tachymeter bezel. Durable silicone strap, shock-resistant case. 100m water resistance — built for active lifestyles.",
+    "price": "149.99",
+    "original_price": "199.99",
+    "image_url": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&q=80",
+    "daraz_url": "",
+    "stock": 40,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:48.180Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "name": "Minimalist Rose Gold Watch",
+    "slug": "minimalist-rose-gold-watch",
+    "category": 3,
+    "description": "Ultra-thin 6.5mm minimalist dial in elegant rose-gold PVD finish. Genuine leather strap, Japanese quartz movement. The epitome of understated elegance.",
+    "price": "219.99",
+    "original_price": "279.99",
+    "image_url": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600&q=80",
+    "daraz_url": "",
+    "stock": 35,
+    "is_featured": false,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:48.239Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "name": "Blue Dial Automatic Watch",
+    "slug": "blue-dial-automatic-watch",
+    "category": 3,
+    "description": "Japanese automatic self-winding movement with stunning ocean-blue sunray dial. Brushed and polished steel case, 100m water resistance, exhibition caseback.",
+    "price": "329.99",
+    "original_price": "449.99",
+    "image_url": "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=600&q=80",
+    "daraz_url": "",
+    "stock": 20,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:48.296Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "name": "Skeleton Mechanical Watch",
+    "slug": "skeleton-mechanical-watch",
+    "category": 3,
+    "description": "Open-heart skeleton dial revealing intricate mechanical movement. Swiss-inspired tourbillon-style display, genuine leather strap. A statement piece for watch enthusiasts.",
+    "price": "549.99",
+    "original_price": "749.99",
+    "image_url": "https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=600&q=80",
+    "daraz_url": "",
+    "stock": 12,
+    "is_featured": true,
+    "rating": "4.9",
+    "created_at": "2026-07-08T06:01:48.358Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "name": "Titanium Sport Watch",
+    "slug": "titanium-sport-watch",
+    "category": 3,
+    "description": "Lightweight Grade-5 titanium sport watch with solar charging and 100m water resistance. Eco-Drive movement, perpetual calendar, world time display.",
+    "price": "459.99",
+    "original_price": "599.99",
+    "image_url": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&q=80",
+    "daraz_url": "",
+    "stock": 18,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:48.406Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "name": "Ladies Rose Crystal Watch",
+    "slug": "ladies-rose-crystal-watch",
+    "category": 3,
+    "description": "Elegant ladies watch with 72 Swarovski crystal-set bezel and rose-gold IP mesh bracelet. Mother-of-pearl dial with date window. A timeless gift for her.",
+    "price": "199.99",
+    "original_price": "269.99",
+    "image_url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80",
+    "daraz_url": "",
+    "stock": 28,
+    "is_featured": true,
+    "rating": "4.7",
+    "created_at": "2026-07-08T06:01:48.466Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "name": "Running Sneakers",
+    "slug": "running-sneakers",
+    "category": 4,
+    "description": "Lightweight and breathable mesh upper with responsive foam midsole. Non-slip rubber outsole, reflective detailing for safety. Ideal for daily runs and gym sessions.",
+    "price": "89.99",
+    "original_price": "119.99",
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    "daraz_url": "",
+    "stock": 100,
+    "is_featured": true,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:48.514Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "name": "Leather Oxford",
+    "slug": "leather-oxford",
+    "category": 4,
+    "description": "Hand-stitched full-grain calf-leather Oxford shoes. Blake-construction sole for flexibility, leather insole. The definitive dress shoe for the modern gentleman.",
+    "price": "149.99",
+    "original_price": null,
+    "image_url": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=600&q=80",
+    "daraz_url": "",
+    "stock": 45,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:48.579Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "name": "High Heel Pumps",
+    "slug": "high-heel-pumps",
+    "category": 4,
+    "description": "Classic 4-inch stiletto pumps in genuine suede. Pointed toe, covered heel, cushioned insole. Available in black, nude, and red.",
+    "price": "109.99",
+    "original_price": "159.99",
+    "image_url": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=600&q=80",
+    "daraz_url": "",
+    "stock": 55,
+    "is_featured": false,
+    "rating": "4.3",
+    "created_at": "2026-07-08T06:01:48.639Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "name": "Casual Slip-On Loafers",
+    "slug": "casual-slip-on-loafers",
+    "category": 4,
+    "description": "Effortless slip-on penny loafers with memory foam insoles. Genuine leather upper, rubber outsole. All-day comfort without sacrificing style.",
+    "price": "69.99",
+    "original_price": "99.99",
+    "image_url": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600&q=80",
+    "daraz_url": "",
+    "stock": 80,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:48.689Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "name": "Chunky Platform Sneakers",
+    "slug": "chunky-platform-sneakers",
+    "category": 4,
+    "description": "Trendy chunky platform sneakers with 4.5cm thick rubber outsole. Padded ankle collar, lace-up closure, mixed-material upper. Add instant height and streetwear edge.",
+    "price": "129.99",
+    "original_price": "179.99",
+    "image_url": "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=600&q=80",
+    "daraz_url": "",
+    "stock": 65,
+    "is_featured": true,
+    "rating": "4.5",
+    "created_at": "2026-07-08T06:01:48.744Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "name": "Suede Chelsea Boots",
+    "slug": "suede-chelsea-boots",
+    "category": 4,
+    "description": "Genuine suede chelsea boots with elasticated side gussets for easy slip-on. Block heel, leather lining. Pairs perfectly with jeans or tailored trousers.",
+    "price": "169.99",
+    "original_price": "219.99",
+    "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80",
+    "daraz_url": "",
+    "stock": 40,
+    "is_featured": false,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:48.805Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 27,
+  "fields": {
+    "name": "Leather Handbag",
+    "slug": "leather-handbag",
+    "category": 5,
+    "description": "Structured genuine leather handbag with brushed gold hardware. Top handles + detachable shoulder strap. Suede lining with two interior pockets. Fits A4 documents.",
+    "price": "129.99",
+    "original_price": "189.99",
+    "image_url": "https://images.unsplash.com/photo-1548036161-f5b1cfc3ec89?w=600&q=80",
+    "daraz_url": "",
+    "stock": 30,
+    "is_featured": true,
+    "rating": "4.7",
+    "created_at": "2026-07-08T06:01:48.863Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 28,
+  "fields": {
+    "name": "Canvas Backpack",
+    "slug": "canvas-backpack",
+    "category": 5,
+    "description": "Durable waxed canvas backpack with padded 15-inch laptop compartment. Leather trim, brass zippers, three compartments plus side water-bottle pockets.",
+    "price": "79.99",
+    "original_price": "109.99",
+    "image_url": "https://images.unsplash.com/photo-1553062407-98d674fe1b79?w=600&q=80",
+    "daraz_url": "",
+    "stock": 60,
+    "is_featured": true,
+    "rating": "4.5",
+    "created_at": "2026-07-08T06:01:48.921Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "name": "Clutch Evening Bag",
+    "slug": "clutch-evening-bag",
+    "category": 5,
+    "description": "Compact beaded satin clutch with detachable chain strap. Interior slip pocket for cards and essentials. Perfect for galas, weddings, and formal evenings.",
+    "price": "59.99",
+    "original_price": "79.99",
+    "image_url": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=600&q=80",
+    "daraz_url": "",
+    "stock": 50,
+    "is_featured": false,
+    "rating": "4.2",
+    "created_at": "2026-07-08T06:01:48.977Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "name": "Quilted Chain Shoulder Bag",
+    "slug": "quilted-chain-shoulder-bag",
+    "category": 5,
+    "description": "Classic diamond-quilted lambskin bag with gold-tone chain strap and turn-lock closure. Interior zip pocket, card slots. Icon handbag status at an accessible price.",
+    "price": "179.99",
+    "original_price": "249.99",
+    "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&q=80",
+    "daraz_url": "",
+    "stock": 22,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:49.040Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 31,
+  "fields": {
+    "name": "Woven Raffia Beach Tote",
+    "slug": "woven-raffia-beach-tote",
+    "category": 5,
+    "description": "Handwoven natural raffia tote with sturdy leather handles and cotton lining. Spacious enough for towels and sunscreen. Your perfect beach companion.",
+    "price": "59.99",
+    "original_price": "84.99",
+    "image_url": "https://images.unsplash.com/photo-1590739293931-a4f79cf92a55?w=600&q=80",
+    "daraz_url": "",
+    "stock": 40,
+    "is_featured": false,
+    "rating": "4.3",
+    "created_at": "2026-07-08T06:01:49.087Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 32,
+  "fields": {
+    "name": "Gold Chain Necklace",
+    "slug": "gold-chain-necklace",
+    "category": 6,
+    "description": "18k gold-plated rope chain necklace, 45cm with lobster clasp. Tarnish-resistant finish. Comes in a luxury gift box.",
+    "price": "199.99",
+    "original_price": "249.99",
+    "image_url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80",
+    "daraz_url": "",
+    "stock": 60,
+    "is_featured": true,
+    "rating": "4.8",
+    "created_at": "2026-07-08T06:01:49.148Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 33,
+  "fields": {
+    "name": "Diamond Solitaire Ring",
+    "slug": "diamond-solitaire-ring",
+    "category": 6,
+    "description": "Brilliant-cut 0.5ct diamond set in a 14k white gold 6-prong solitaire band. GIA certified. Includes certificate and luxury jewellery box.",
+    "price": "499.99",
+    "original_price": "699.99",
+    "image_url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&q=80",
+    "daraz_url": "",
+    "stock": 10,
+    "is_featured": true,
+    "rating": "4.9",
+    "created_at": "2026-07-08T06:01:49.204Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 34,
+  "fields": {
+    "name": "Silver Cuff Bracelet",
+    "slug": "silver-cuff-bracelet",
+    "category": 6,
+    "description": "Sterling 925 silver adjustable cuff bracelet with intricate floral engravings. Hypoallergenic, nickel-free. One size fits most.",
+    "price": "89.99",
+    "original_price": "119.99",
+    "image_url": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&q=80",
+    "daraz_url": "",
+    "stock": 45,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:49.268Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 35,
+  "fields": {
+    "name": "Layered Gold Chain Necklace Set",
+    "slug": "layered-gold-chain-necklace-set",
+    "category": 6,
+    "description": "Set of three delicate 18k gold-plated chains 40cm, 45cm, and 50cm, designed to be worn layered together for a trend-forward look.",
+    "price": "79.99",
+    "original_price": "109.99",
+    "image_url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80",
+    "daraz_url": "",
+    "stock": 35,
+    "is_featured": false,
+    "rating": "4.5",
+    "created_at": "2026-07-08T06:01:49.301Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 36,
+  "fields": {
+    "name": "Emerald Stud Earrings",
+    "slug": "emerald-stud-earrings",
+    "category": 6,
+    "description": "Natural emerald stone stud earrings set in 14k yellow gold with butterfly backs. Vibrant green colour, a meaningful gift for May birthdays.",
+    "price": "149.99",
+    "original_price": "199.99",
+    "image_url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80",
+    "daraz_url": "",
+    "stock": 20,
+    "is_featured": false,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:49.309Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 37,
+  "fields": {
+    "name": "Aviator Sunglasses",
+    "slug": "aviator-sunglasses",
+    "category": 7,
+    "description": "Classic metal-frame aviators with UV400 polarised lenses. Spring-hinge temples for adjustable fit. Scratch-resistant coating. Includes hard case and cleaning cloth.",
+    "price": "79.99",
+    "original_price": "109.99",
+    "image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
+    "daraz_url": "",
+    "stock": 75,
+    "is_featured": true,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:49.318Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 38,
+  "fields": {
+    "name": "Cat Eye Frames",
+    "slug": "cat-eye-frames",
+    "category": 7,
+    "description": "Retro cat-eye frames in handmade tortoiseshell acetate. Gradient lenses, stainless steel hinges. The must-have sunglasses for vintage fashion lovers.",
+    "price": "69.99",
+    "original_price": "89.99",
+    "image_url": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=600&q=80",
+    "daraz_url": "",
+    "stock": 55,
+    "is_featured": false,
+    "rating": "4.3",
+    "created_at": "2026-07-08T06:01:49.329Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 39,
+  "fields": {
+    "name": "Oversized Square Shades",
+    "slug": "oversized-square-shades",
+    "category": 7,
+    "description": "Bold oversized square frames for a glamorous, celebrity-approved look. 100% UV protection, lightweight TR90 frame, anti-reflective lenses.",
+    "price": "59.99",
+    "original_price": null,
+    "image_url": "https://images.unsplash.com/photo-1473496169904-658ba7574b0d?w=600&q=80",
+    "daraz_url": "",
+    "stock": 60,
+    "is_featured": false,
+    "rating": "4.5",
+    "created_at": "2026-07-08T06:01:49.367Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 40,
+  "fields": {
+    "name": "Round Tortoise Sunglasses",
+    "slug": "round-tortoise-sunglasses",
+    "category": 7,
+    "description": "Classic round acetate frames in rich tortoiseshell. Gradient UV400 polarised lenses reduce glare. Inspires the classic bohemian aesthetic.",
+    "price": "84.99",
+    "original_price": "114.99",
+    "image_url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+    "daraz_url": "",
+    "stock": 45,
+    "is_featured": false,
+    "rating": "4.5",
+    "created_at": "2026-07-08T06:01:49.386Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 41,
+  "fields": {
+    "name": "Sport Wraparound Shades",
+    "slug": "sport-wraparound-shades",
+    "category": 7,
+    "description": "Wraparound sports sunglasses with rubberised nose pads and anti-slip temple tips. Polycarbonate impact-resistant lenses. Ideal for cycling, running, and outdoor sports.",
+    "price": "54.99",
+    "original_price": "79.99",
+    "image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
+    "daraz_url": "",
+    "stock": 80,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:49.399Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 42,
+  "fields": {
+    "name": "Wool Fedora Hat",
+    "slug": "wool-fedora-hat",
+    "category": 8,
+    "description": "Classic wide-brim fedora crafted from 100% premium wool felt. Satin inner sweatband, grosgrain ribbon. Available in charcoal, camel, and ivory.",
+    "price": "49.99",
+    "original_price": "69.99",
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+    "daraz_url": "",
+    "stock": 50,
+    "is_featured": true,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:49.418Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 43,
+  "fields": {
+    "name": "Snapback Baseball Cap",
+    "slug": "snapback-baseball-cap",
+    "category": 8,
+    "description": "Adjustable 6-panel snapback cap in embroidered cotton twill. Structured flat brim, plastic snap closure. One size fits most adults.",
+    "price": "29.99",
+    "original_price": "39.99",
+    "image_url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&q=80",
+    "daraz_url": "",
+    "stock": 100,
+    "is_featured": false,
+    "rating": "4.2",
+    "created_at": "2026-07-08T06:01:49.444Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 44,
+  "fields": {
+    "name": "Ribbed Knit Beanie",
+    "slug": "ribbed-knit-beanie",
+    "category": 8,
+    "description": "Soft ribbed-knit beanie in merino wool blend. Fold-up cuff, stretchy fit. Warm and stylish for cold days. Available in 8 solid colours.",
+    "price": "24.99",
+    "original_price": "34.99",
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+    "daraz_url": "",
+    "stock": 90,
+    "is_featured": false,
+    "rating": "4.3",
+    "created_at": "2026-07-08T06:01:49.459Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 45,
+  "fields": {
+    "name": "Adjustable Corduroy Dad Cap",
+    "slug": "adjustable-corduroy-dad-cap",
+    "category": 8,
+    "description": "Unstructured 6-panel dad cap in soft corduroy fabric. Adjustable brass buckle strap. The perfect low-key accessory for casual outfits.",
+    "price": "27.99",
+    "original_price": "39.99",
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+    "daraz_url": "",
+    "stock": 70,
+    "is_featured": false,
+    "rating": "4.4",
+    "created_at": "2026-07-08T06:01:49.470Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 46,
+  "fields": {
+    "name": "Silk Printed Scarf",
+    "slug": "silk-printed-scarf",
+    "category": 9,
+    "description": "Luxurious 100% silk scarf with artistic botanical print. 90x90cm, hand-rolled edges. Wear as a neck scarf, hair tie, or bag accessory.",
+    "price": "39.99",
+    "original_price": "59.99",
+    "image_url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&q=80",
+    "daraz_url": "",
+    "stock": 55,
+    "is_featured": true,
+    "rating": "4.5",
+    "created_at": "2026-07-08T06:01:49.480Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 47,
+  "fields": {
+    "name": "Braided Leather Belt",
+    "slug": "braided-leather-belt",
+    "category": 9,
+    "description": "Hand-braided genuine leather belt with solid antique brass prong buckle. Width: 35mm. Available in sizes 28 to 46 inches.",
+    "price": "34.99",
+    "original_price": "49.99",
+    "image_url": "https://images.unsplash.com/photo-1624806992066-5ffcf7ca186b?w=600&q=80",
+    "daraz_url": "",
+    "stock": 60,
+    "is_featured": false,
+    "rating": "4.3",
+    "created_at": "2026-07-08T06:01:49.499Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 48,
+  "fields": {
+    "name": "Cashmere Gloves",
+    "slug": "cashmere-gloves",
+    "category": 9,
+    "description": "Soft Grade-A cashmere knit gloves with touchscreen-compatible fingertips. Ribbed cuffs, one-size-fits-most. Available in 6 neutral tones.",
+    "price": "44.99",
+    "original_price": "64.99",
+    "image_url": "https://images.unsplash.com/photo-1617791160536-598cf32026fb?w=600&q=80",
+    "daraz_url": "",
+    "stock": 45,
+    "is_featured": false,
+    "rating": "4.7",
+    "created_at": "2026-07-08T06:01:49.519Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 49,
+  "fields": {
+    "name": "Slim RFID Leather Wallet",
+    "slug": "slim-rfid-leather-wallet",
+    "category": 9,
+    "description": "Ultra-slim bi-fold wallet in top-grain vegetable-tanned leather. Built-in RFID-blocking lining. 8 card slots, full-length bill compartment, ID window.",
+    "price": "49.99",
+    "original_price": "69.99",
+    "image_url": "https://images.unsplash.com/photo-1548036161-f5b1cfc3ec89?w=600&q=80",
+    "daraz_url": "",
+    "stock": 75,
+    "is_featured": false,
+    "rating": "4.6",
+    "created_at": "2026-07-08T06:01:49.529Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 50,
+  "fields": {
+    "name": "Gold Sunglasses Chain",
+    "slug": "gold-sunglasses-chain",
+    "category": 9,
+    "description": "18k gold-plated sunglasses chain, keep your eyewear safe and stylish. Universal silicone loops, 68cm length. Also doubles as a statement necklace.",
+    "price": "19.99",
+    "original_price": "29.99",
+    "image_url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&q=80",
+    "daraz_url": "",
+    "stock": 100,
+    "is_featured": false,
+    "rating": "4.2",
+    "created_at": "2026-07-08T06:01:49.540Z"
+  }
+},
+{
+  "model": "store.cart",
+  "pk": 1,
+  "fields": {
+    "session_key": "9xf93pr7r2ueooj3zxm3uvkv7l9vubw4",
+    "created_at": "2026-07-08T05:27:08.622Z"
+  }
+},
+{
+  "model": "store.cart",
+  "pk": 2,
+  "fields": {
+    "session_key": "rvy7pf228s0b7z5t4fjilmfehrluls4l",
+    "created_at": "2026-08-16T11:38:12.950Z"
+  }
+},
+{
+  "model": "store.cartitem",
+  "pk": 1,
+  "fields": {
+    "cart": 1,
+    "product": 1,
+    "quantity": 1,
+    "size": "M"
+  }
+},
+{
+  "model": "store.cartitem",
+  "pk": 2,
+  "fields": {
+    "cart": 2,
+    "product": 42,
+    "quantity": 1,
+    "size": "M"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$AH5X0s1FsHloIOAsifHl4c$yDYCBXVddhrUfAICvuJRauG+/XuCRa0GWqYSDEoMoLI=",
+    "last_login": "2026-08-16T12:04:33.633Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-05T10:18:42.213Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$7ZJ9uanqQnWenCPkckWKuE$tdt8ORRDtwXbyKODNq5PxE307XY36DJHq2GqLcORMGw=",
+    "last_login": "2026-07-05T10:21:57.096Z",
+    "is_superuser": false,
+    "username": "janak",
+    "first_name": "",
+    "last_name": "",
+    "email": "janakbist64@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-05T10:21:53.932Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
